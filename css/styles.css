@@ -240,3 +240,37 @@ footer {
     display: block;
 }
 
+.about {
+    width:85%;
+    /*Display:flex;*/
+    Justify-content:space-between;
+    align-items:center;
+    margin:75px auto;
+    text-align:center;
+}
+.card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    margin:0px 20px;
+    padding:20px 20px;
+    background-color:whitesmoke;
+    border-radius:20px;
+}
+.card h2{
+    font: size 28px;
+    color:#381a09;
+    margin-bottom:20px;
+}
+.card p{
+    font-size:17px;
+    margin-bottom:30px;
+    line-height:1.5;
+    color:#4e2706
+}
+.titleabout h2{
+    text-align:center;
+    padding-top:50px;
+    font-size:42px;
+}
